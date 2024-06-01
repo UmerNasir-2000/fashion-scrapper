@@ -57,8 +57,12 @@ async function extractArticle(page, link) {
     ".t4s-product-price span.money",
     (el) => el.textContent
   );
+  const description = await page.$eval(
+    ".panel p:nth-child(2)",
+    (el) => el.textContent
+  );
 
-  return { title, price, images };
+  return { title, price, description, images };
 }
 
 run().catch(console.error);
