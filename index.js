@@ -40,6 +40,7 @@ async function getProductLinks(page) {
 
 async function extractArticle(page, link) {
   await page.goto(link);
+
   const images = await page.$$eval("img[data-master]", (elements) => {
     return elements.reduce((acc, el) => {
       const imgSources = el.srcset
@@ -51,7 +52,13 @@ async function extractArticle(page, link) {
     }, []);
   });
 
-  return images;
+  const title = await page.$eval(".t4s-product__title", (el) => el.textContent);
+  const price = await page.$eval(
+    ".t4s-product-price span.money",
+    (el) => el.textContent
+  );
+
+  return { title, price, images };
 }
 
 run().catch(console.error);
