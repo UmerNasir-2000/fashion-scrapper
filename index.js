@@ -8,17 +8,24 @@ async function run() {
   const page = await browser.newPage();
 
   await page.goto(URL);
-  //   await page.screenshot({ path: "site.png" });
 
-  const elements = await page.$$("[data-product-options]");
-  let htmlString = ``;
-  for (let element of elements) {
-    htmlString += await element.evaluate((el) => el.outerHTML);
-  }
+  const links = await getProductLinks(page);
 
-  await fs.writeFile("output.html", htmlString);
+  console.log(links.length);
 
   await browser.close();
+}
+
+async function getProductLinks(page) {
+  const linkSet = new Set();
+
+  const elements = await page.$$("[data-product-options] a");
+
+  for (let element of elements) {
+    let link = await element.evaluate((el) => el.href);
+    linkSet.add(link);
+  }
+  return [...linkSet];
 }
 
 run().catch(console.error);
