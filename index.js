@@ -11,7 +11,10 @@ async function run() {
 
   const links = await getProductLinks(page);
 
-  console.log(links.length);
+  for (let link of links) {
+    const article = await extractArticle(page, link);
+    console.log(article);
+  }
 
   await browser.close();
 }
@@ -26,6 +29,36 @@ async function getProductLinks(page) {
     linkSet.add(link);
   }
   return [...linkSet];
+}
+
+async function extractArticle(page, link) {
+  await page.goto(link);
+
+  const images = await page.$$eval("img[data-master]", (elements) => {
+    return elements.map((el) => {
+      let srcset = el.srcset;
+      let urls = srcset
+        .split(",")
+        .map((url) => {
+          url = url.trim();
+          let jpgIndex = url.indexOf(".jpg");
+          let jpegIndex = url.indexOf(".jpeg");
+          if (jpgIndex !== -1) {
+            url = url.substring(0, jpgIndex + 4);
+          } else if (jpegIndex !== -1) {
+            url = url.substring(0, jpegIndex + 5);
+          }
+          if (url.length === 0) {
+            return null;
+          }
+          return "https:" + url;
+        })
+        .filter(Boolean); // filter out null values
+      return urls.filter(Boolean);
+    });
+  });
+
+  return images.filter(Boolean);
 }
 
 run().catch(console.error);
