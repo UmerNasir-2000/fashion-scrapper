@@ -16,12 +16,11 @@ async function run() {
 
   const links = await getProductLinks(page);
 
-  for (let link of links) {
-    console.log(`Fetching article from ${link}`);
-    const article = await extractArticle(page, link);
-    console.log(article);
-    console.log(`Fetched...`);
-  }
+  const articles = await Promise.all(
+    links.map((link) => extractArticle(page, link))
+  );
+
+  await fs.writeFile("articles.json", JSON.stringify(articles, null, 2));
 
   await browser.close();
 }
@@ -62,7 +61,11 @@ async function extractArticle(page, link) {
     (el) => el.textContent
   );
 
-  return { title, price, description, images };
+  const designDetails = await page.$eval(".panel ul", (el) =>
+    Array.from(el.querySelectorAll("li"), (li) => li.textContent)
+  );
+
+  return { title, price, description, designDetails, images };
 }
 
 run().catch(console.error);
