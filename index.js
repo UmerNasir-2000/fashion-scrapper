@@ -17,7 +17,7 @@ async function run() {
   const links = await getProductLinks(page);
 
   const articles = [];
-  for (let link of links.slice(0, 2)) {
+  for (let link of links) {
     console.log(`Extracting article from ${link}`);
     const article = await extractArticle(page, link);
     articles.push(article);
