@@ -22,9 +22,6 @@ async function run() {
   for (let link of links) {
     console.log(`Extracting article from ${link}`);
     const article = await extractArticle(page, link);
-    const colors = await getColors(article.images[0]);
-    const hexcodes = colors.map((color) => color.hex());
-    console.log(hexcodes);
     articles.push(article);
     console.log(`So far extracted ${articles.length} articles`);
   }
@@ -35,7 +32,7 @@ async function run() {
 }
 
 async function getProductLinks(page) {
-  return links.slice(101, 201);
+  return links.slice(501, 601);
 }
 
 async function extractArticle(page, link) {
@@ -54,14 +51,18 @@ async function extractArticle(page, link) {
 
   const title = await page.$eval(".t4s-product__title", (el) => el.textContent);
 
-  const video = await page.$eval("video.media-video > source", (el) => el.src);
+  let video;
+  try {
+    video = await page.$eval("video.media-video > source", (el) => el.src);
+  } catch (error) {
+    video = "";
+  }
 
   const price = await page.$eval(".t4s-product-price span.money", (el) =>
     Number(el.textContent.replace("Rs. ", "").replace(",", ""))
   );
 
   let quantity;
-
   try {
     quantity = await page.$eval("input[data-quantity-value]", (el) =>
       Number(el.getAttribute("mm-stock-max"))
@@ -87,6 +88,9 @@ async function extractArticle(page, link) {
     })
   );
 
+  const colors = await getColors(images[0]);
+  const hexcodes = colors.map((color) => color.hex());
+
   return {
     title,
     price,
@@ -96,6 +100,7 @@ async function extractArticle(page, link) {
     video,
     meta,
     quantity,
+    colors: hexcodes,
     stitched: !link.includes("unstitched"),
   };
 }
