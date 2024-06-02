@@ -63,10 +63,15 @@ async function extractArticle(page, link) {
     Number(el.textContent.replace("Rs. ", "").replace(",", ""))
   );
 
-  const element = await page.$("input[data-quantity-value]");
-  const quantity = element
-    ? Number(await (await element.getProperty("mm-stock-max")).jsonValue())
-    : 0;
+  let quantity;
+
+  try {
+    quantity = await page.$eval("input[data-quantity-value]", (el) =>
+      Number(el.getAttribute("mm-stock-max"))
+    );
+  } catch (err) {
+    quantity = 0;
+  }
 
   const description = await page.$eval(".panel p:nth-child(2)", (el) =>
     el.textContent.trim()
