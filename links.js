@@ -1252,3 +1252,5 @@ const links = [
   "https://asimjofa.com/collections/unstitched/products/ajfi-30",
   "https://asimjofa.com/products/ajfi-30",
 ];
+
+module.exports = links;
