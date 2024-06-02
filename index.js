@@ -21,6 +21,7 @@ async function run() {
     console.log(`Extracting article from ${link}`);
     const article = await extractArticle(page, link);
     articles.push(article);
+    console.log(`So far extracted ${articles.length} articles`);
   }
 
   await fs.writeFile("articles.json", JSON.stringify(articles, null, 2));
@@ -56,9 +57,16 @@ async function extractArticle(page, link) {
 
   const title = await page.$eval(".t4s-product__title", (el) => el.textContent);
 
+  const video = await page.$eval("video.media-video > source", (el) => el.src);
+
   const price = await page.$eval(".t4s-product-price span.money", (el) =>
     Number(el.textContent.replace("Rs. ", "").replace(",", ""))
   );
+
+  const element = await page.$("input[data-quantity-value]");
+  const quantity = element
+    ? Number(await (await element.getProperty("mm-stock-max")).jsonValue())
+    : 0;
 
   const description = await page.$eval(".panel p:nth-child(2)", (el) =>
     el.textContent.trim()
@@ -77,7 +85,17 @@ async function extractArticle(page, link) {
     })
   );
 
-  return { title, price, description, designDetails, images, meta };
+  return {
+    title,
+    price,
+    description,
+    designDetails,
+    images,
+    video,
+    meta,
+    quantity,
+    stitched: !link.includes("unstitched"),
+  };
 }
 
 run().catch(console.error);
