@@ -144,7 +144,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#915754",
+      "#2c2223",
+      "#dfcbbb",
+      "#d83462",
+      "#bda6a4"
+    ]
   },
   {
     "title": "AJRN-29",
@@ -247,7 +254,14 @@
       }
     ],
     "quantity": 1183,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#312727",
+      "#ab8f7f",
+      "#735c54",
+      "#847b7c",
+      "#8c8578"
+    ]
   },
   {
     "title": "AJRN-29",
@@ -361,7 +375,14 @@
       }
     ],
     "quantity": 1183,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#312727",
+      "#ab8f7f",
+      "#735c54",
+      "#847b7c",
+      "#8c8578"
+    ]
   },
   {
     "title": "AJRN-28",
@@ -475,7 +496,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#8e6f46",
+      "#161311",
+      "#b3aea6",
+      "#532c1a",
+      "#d3911e"
+    ]
   },
   {
     "title": "AJRN-28",
@@ -589,7 +617,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#8e6f46",
+      "#161311",
+      "#b3aea6",
+      "#532c1a",
+      "#d3911e"
+    ]
   },
   {
     "title": "AJRN-27",
@@ -703,7 +738,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#44332d",
+      "#d4ad8c",
+      "#a07961",
+      "#a9a397",
+      "#8c949c"
+    ]
   },
   {
     "title": "AJRN-27",
@@ -817,7 +859,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#44332d",
+      "#d4ad8c",
+      "#a07961",
+      "#a9a397",
+      "#8c949c"
+    ]
   },
   {
     "title": "AJRN-26",
@@ -931,7 +980,14 @@
       }
     ],
     "quantity": 1768,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#ac6c57",
+      "#1a0f0a",
+      "#e2ceba",
+      "#563320",
+      "#c7b1b0"
+    ]
   },
   {
     "title": "AJRN-26",
@@ -1056,7 +1112,14 @@
       }
     ],
     "quantity": 1768,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#ac6c57",
+      "#1a0f0a",
+      "#e2ceba",
+      "#563320",
+      "#c7b1b0"
+    ]
   },
   {
     "title": "AJRN-25",
@@ -1170,7 +1233,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#b4a097",
+      "#262224",
+      "#513230",
+      "#645a57",
+      "#674b38"
+    ]
   },
   {
     "title": "AJRN-25",
@@ -1284,7 +1354,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#b4a097",
+      "#262224",
+      "#513230",
+      "#645a57",
+      "#674b38"
+    ]
   },
   {
     "title": "AJRN-24",
@@ -1399,7 +1476,14 @@
       }
     ],
     "quantity": 227,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#9a928b",
+      "#1b1612",
+      "#dccec2",
+      "#60543b",
+      "#504133"
+    ]
   },
   {
     "title": "AJRN-24",
@@ -1525,7 +1609,14 @@
       }
     ],
     "quantity": 227,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#9a928b",
+      "#1b1612",
+      "#dccec2",
+      "#60543b",
+      "#504133"
+    ]
   },
   {
     "title": "AJRN-23",
@@ -1639,7 +1730,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#bca293",
+      "#291a1a",
+      "#562422",
+      "#655954",
+      "#6c4c32"
+    ]
   },
   {
     "title": "AJRN-23",
@@ -1753,7 +1851,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#bca293",
+      "#291a1a",
+      "#562422",
+      "#655954",
+      "#6c4c32"
+    ]
   },
   {
     "title": "AJRN-22",
@@ -1867,7 +1972,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#2d2c2b",
+      "#b29b88",
+      "#8d7457",
+      "#969790",
+      "#6f858f"
+    ]
   },
   {
     "title": "AJRN-22",
@@ -1981,7 +2093,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#2d2c2b",
+      "#b29b88",
+      "#8d7457",
+      "#969790",
+      "#6f858f"
+    ]
   },
   {
     "title": "AJRN-21",
@@ -2094,7 +2213,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#463732",
+      "#ddc9bd",
+      "#876857",
+      "#968c8f",
+      "#a49c8c"
+    ]
   },
   {
     "title": "AJRN-21",
@@ -2207,7 +2333,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#463732",
+      "#ddc9bd",
+      "#876857",
+      "#968c8f",
+      "#a49c8c"
+    ]
   },
   {
     "title": "AJRN-20",
@@ -2322,7 +2455,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#ad926b",
+      "#1e1610",
+      "#503228",
+      "#e9dac7",
+      "#5c513e"
+    ]
   },
   {
     "title": "AJRN-20",
@@ -2437,7 +2577,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#ad926b",
+      "#1e1610",
+      "#503228",
+      "#e9dac7",
+      "#5c513e"
+    ]
   },
   {
     "title": "AJRN-19",
@@ -2550,7 +2697,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#c4afa3",
+      "#241a1a",
+      "#4f3931",
+      "#6d5d58",
+      "#74553c"
+    ]
   },
   {
     "title": "AJRN-19",
@@ -2696,7 +2850,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#c4afa3",
+      "#241a1a",
+      "#4f3931",
+      "#6d5d58",
+      "#74553c"
+    ]
   },
   {
     "title": "AJRN-18",
@@ -2819,7 +2980,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#bfa79a",
+      "#201e1c",
+      "#554437",
+      "#6b615c",
+      "#6f603e"
+    ]
   },
   {
     "title": "AJRN-18",
@@ -2931,7 +3099,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#bfa79a",
+      "#201e1c",
+      "#554437",
+      "#6b615c",
+      "#6f603e"
+    ]
   },
   {
     "title": "AJRN-17",
@@ -3043,7 +3218,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#252524",
+      "#b0a190",
+      "#8e877c",
+      "#736959",
+      "#6a7077"
+    ]
   },
   {
     "title": "AJRN-17",
@@ -3155,7 +3337,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#252524",
+      "#b0a190",
+      "#8e877c",
+      "#736959",
+      "#6a7077"
+    ]
   },
   {
     "title": "AJRN-16",
@@ -3269,7 +3458,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#432f2c",
+      "#cea78d",
+      "#977260",
+      "#a8a09e",
+      "#969294"
+    ]
   },
   {
     "title": "AJRN-16",
@@ -3383,7 +3579,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#432f2c",
+      "#cea78d",
+      "#977260",
+      "#a8a09e",
+      "#969294"
+    ]
   },
   {
     "title": "AJRN-15",
@@ -3497,7 +3700,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#793c45",
+      "#d4c1b1",
+      "#212b38",
+      "#c56869",
+      "#a4a3a6"
+    ]
   },
   {
     "title": "AJRN-15",
@@ -3611,7 +3821,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#793c45",
+      "#d4c1b1",
+      "#212b38",
+      "#c56869",
+      "#a4a3a6"
+    ]
   },
   {
     "title": "AJRN-14",
@@ -3722,7 +3939,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#362f28",
+      "#ccc8be",
+      "#9fa9a0",
+      "#8e7d66",
+      "#6f8aa4"
+    ]
   },
   {
     "title": "AJRN-14",
@@ -3833,7 +4057,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#362f28",
+      "#ccc8be",
+      "#9fa9a0",
+      "#8e7d66",
+      "#6f8aa4"
+    ]
   },
   {
     "title": "AJRN-13",
@@ -3947,7 +4178,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#3b2c22",
+      "#bfb399",
+      "#846e4f",
+      "#979277",
+      "#84847c"
+    ]
   },
   {
     "title": "AJRN-13",
@@ -4083,7 +4321,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#3b2c22",
+      "#bfb399",
+      "#846e4f",
+      "#979277",
+      "#84847c"
+    ]
   },
   {
     "title": "AJRN-12",
@@ -4218,7 +4463,14 @@
       }
     ],
     "quantity": 1136,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#714f44",
+      "#d3ac88",
+      "#201014",
+      "#afa49b",
+      "#ac9c9c"
+    ]
   },
   {
     "title": "AJRN-12",
@@ -4353,7 +4605,14 @@
       }
     ],
     "quantity": 1136,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#714f44",
+      "#d3ac88",
+      "#201014",
+      "#afa49b",
+      "#ac9c9c"
+    ]
   },
   {
     "title": "AJRN-11",
@@ -4466,7 +4725,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#473832",
+      "#9e7a66",
+      "#cda892",
+      "#b19d96",
+      "#a89394"
+    ]
   },
   {
     "title": "AJRN-11",
@@ -4579,7 +4845,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#473832",
+      "#9e7a66",
+      "#cda892",
+      "#b19d96",
+      "#a89394"
+    ]
   },
   {
     "title": "AJRN-10",
@@ -4691,7 +4964,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#e2c7ae",
+      "#373030",
+      "#94745b",
+      "#b1ad8a",
+      "#a19694"
+    ]
   },
   {
     "title": "AJRN-10",
@@ -4803,7 +5083,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#e2c7ae",
+      "#373030",
+      "#94745b",
+      "#b1ad8a",
+      "#a19694"
+    ]
   },
   {
     "title": "AJRN-09",
@@ -4915,7 +5202,14 @@
       }
     ],
     "quantity": 2289,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#6e5b43",
+      "#d5b388",
+      "#1c1411",
+      "#b0a891",
+      "#a49c8c"
+    ]
   },
   {
     "title": "AJRN-09",
@@ -5038,7 +5332,14 @@
       }
     ],
     "quantity": 2289,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#6e5b43",
+      "#d5b388",
+      "#1c1411",
+      "#b0a891",
+      "#a49c8c"
+    ]
   },
   {
     "title": "AJRN-08",
@@ -5151,7 +5452,14 @@
       }
     ],
     "quantity": 460,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#71624a",
+      "#ded1b5",
+      "#1d1d12",
+      "#b4b89e",
+      "#a2a99e"
+    ]
   },
   {
     "title": "AJRN-08",
@@ -5264,7 +5572,14 @@
       }
     ],
     "quantity": 460,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#71624a",
+      "#ded1b5",
+      "#1d1d12",
+      "#b4b89e",
+      "#a2a99e"
+    ]
   },
   {
     "title": "AJRN-07",
@@ -5376,7 +5691,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#b7957c",
+      "#1e1514",
+      "#665d52",
+      "#68552d",
+      "#503829"
+    ]
   },
   {
     "title": "AJRN-07",
@@ -5488,7 +5810,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#b7957c",
+      "#1e1514",
+      "#665d52",
+      "#68552d",
+      "#503829"
+    ]
   },
   {
     "title": "AJRN-06",
@@ -5600,7 +5929,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#2f2525",
+      "#bb9790",
+      "#81645f",
+      "#968881",
+      "#857c7c"
+    ]
   },
   {
     "title": "AJRN-06",
@@ -5712,7 +6048,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#2f2525",
+      "#bb9790",
+      "#81645f",
+      "#968881",
+      "#857c7c"
+    ]
   },
   {
     "title": "AJRN-05",
@@ -5858,7 +6201,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#ae876c",
+      "#1d151e",
+      "#581c27",
+      "#d6c7c0",
+      "#5c504b"
+    ]
   },
   {
     "title": "AJRN-05",
@@ -5993,7 +6343,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#ae876c",
+      "#1d151e",
+      "#581c27",
+      "#d6c7c0",
+      "#5c504b"
+    ]
   },
   {
     "title": "AJRN-04",
@@ -6107,7 +6464,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#322120",
+      "#ccb9ab",
+      "#886256",
+      "#9e8f7e",
+      "#a47c84"
+    ]
   },
   {
     "title": "AJRN-04",
@@ -6221,7 +6585,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#322120",
+      "#ccb9ab",
+      "#886256",
+      "#9e8f7e",
+      "#a47c84"
+    ]
   },
   {
     "title": "AJRN-03",
@@ -6335,7 +6706,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#403434",
+      "#d2afb1",
+      "#b8aeb1",
+      "#a27478",
+      "#b08e9a"
+    ]
   },
   {
     "title": "AJRN-03",
@@ -6460,7 +6838,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#403434",
+      "#d2afb1",
+      "#b8aeb1",
+      "#a27478",
+      "#b08e9a"
+    ]
   },
   {
     "title": "AJRN-02",
@@ -6574,7 +6959,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#ceb399",
+      "#2c2424",
+      "#876f58",
+      "#9b9694",
+      "#8c8c8c"
+    ]
   },
   {
     "title": "AJRN-02",
@@ -6688,7 +7080,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#ceb399",
+      "#2c2424",
+      "#876f58",
+      "#9b9694",
+      "#8c8c8c"
+    ]
   },
   {
     "title": "AJRN-01",
@@ -6802,7 +7201,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#ac8c66",
+      "#180f07",
+      "#dcd0bf",
+      "#4d3216",
+      "#63523d"
+    ]
   },
   {
     "title": "AJRN-01",
@@ -6927,7 +7333,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#ac8c66",
+      "#180f07",
+      "#dcd0bf",
+      "#4d3216",
+      "#63523d"
+    ]
   },
   {
     "title": "AJKT-12",
@@ -7044,7 +7457,14 @@
       }
     ],
     "quantity": 65,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#42220f",
+      "#c58343",
+      "#8d5124",
+      "#8c7974",
+      "#9c8c74"
+    ]
   },
   {
     "title": "AJKT-12",
@@ -7161,7 +7581,14 @@
       }
     ],
     "quantity": 65,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#42220f",
+      "#c58343",
+      "#8d5124",
+      "#8c7974",
+      "#9c8c74"
+    ]
   },
   {
     "title": "AJKT-11",
@@ -7279,7 +7706,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#301a0f",
+      "#bb8965",
+      "#7a4d31",
+      "#846c60",
+      "#8e8171"
+    ]
   },
   {
     "title": "AJKT-11",
@@ -7397,7 +7831,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#301a0f",
+      "#bb8965",
+      "#7a4d31",
+      "#846c60",
+      "#8e8171"
+    ]
   },
   {
     "title": "AJKT-10",
@@ -7514,7 +7955,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#371d0f",
+      "#855026",
+      "#b67b49",
+      "#96806d",
+      "#6c544c"
+    ]
   },
   {
     "title": "AJKT-10",
@@ -7631,7 +8079,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#371d0f",
+      "#855026",
+      "#b67b49",
+      "#96806d",
+      "#6c544c"
+    ]
   },
   {
     "title": "AJKT-09",
@@ -7759,7 +8214,14 @@
       }
     ],
     "quantity": 349,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#4e2c1f",
+      "#c8ac93",
+      "#9aaa86",
+      "#9f5e38",
+      "#988d91"
+    ]
   },
   {
     "title": "AJKT-09",
@@ -7876,7 +8338,14 @@
       }
     ],
     "quantity": 349,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#4e2c1f",
+      "#c8ac93",
+      "#9aaa86",
+      "#9f5e38",
+      "#988d91"
+    ]
   },
   {
     "title": "AJKT-08",
@@ -7981,7 +8450,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#3b180e",
+      "#e1c5a8",
+      "#8d5536",
+      "#999691",
+      "#9c7464"
+    ]
   },
   {
     "title": "AJKT-08",
@@ -8086,7 +8562,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#3b180e",
+      "#e1c5a8",
+      "#8d5536",
+      "#999691",
+      "#9c7464"
+    ]
   },
   {
     "title": "AJKT-07",
@@ -8190,7 +8673,14 @@
       }
     ],
     "quantity": 25,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#402512",
+      "#b28255",
+      "#885932",
+      "#967852",
+      "#746c64"
+    ]
   },
   {
     "title": "AJKT-07",
@@ -8294,7 +8784,14 @@
       }
     ],
     "quantity": 25,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#402512",
+      "#b28255",
+      "#885932",
+      "#967852",
+      "#746c64"
+    ]
   },
   {
     "title": "AJKT-06",
@@ -8407,7 +8904,14 @@
       }
     ],
     "quantity": 126,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#301b10",
+      "#a97f60",
+      "#785741",
+      "#867162",
+      "#908676"
+    ]
   },
   {
     "title": "AJKT-06",
@@ -8520,7 +9024,14 @@
       }
     ],
     "quantity": 126,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#301b10",
+      "#a97f60",
+      "#785741",
+      "#867162",
+      "#908676"
+    ]
   },
   {
     "title": "AJKT-05",
@@ -8637,7 +9148,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#5d3427",
+      "#b48962",
+      "#160b09",
+      "#958464",
+      "#887c78"
+    ]
   },
   {
     "title": "AJKT-05",
@@ -8754,7 +9272,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#5d3427",
+      "#b48962",
+      "#160b09",
+      "#958464",
+      "#887c78"
+    ]
   },
   {
     "title": "AJKT-04",
@@ -8859,7 +9384,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#2a170f",
+      "#b58c6e",
+      "#70492d",
+      "#8a7467",
+      "#888078"
+    ]
   },
   {
     "title": "AJKT-04",
@@ -8964,7 +9496,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#2a170f",
+      "#b58c6e",
+      "#70492d",
+      "#8a7467",
+      "#888078"
+    ]
   },
   {
     "title": "AJKT-03",
@@ -9074,7 +9613,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#2a1810",
+      "#b48669",
+      "#734b32",
+      "#808484",
+      "#6e6c6c"
+    ]
   },
   {
     "title": "AJKT-03",
@@ -9228,7 +9774,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#2a1810",
+      "#b48669",
+      "#734b32",
+      "#808484",
+      "#6e6c6c"
+    ]
   },
   {
     "title": "AJKT-02",
@@ -9333,7 +9886,14 @@
       }
     ],
     "quantity": 393,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#461b11",
+      "#c38664",
+      "#914d2c",
+      "#a08165",
+      "#8c746c"
+    ]
   },
   {
     "title": "AJKT-02",
@@ -9493,7 +10053,14 @@
       }
     ],
     "quantity": 393,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#461b11",
+      "#c38664",
+      "#914d2c",
+      "#a08165",
+      "#8c746c"
+    ]
   },
   {
     "title": "AJKT-01",
@@ -9608,7 +10175,14 @@
       }
     ],
     "quantity": 196,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#43221a",
+      "#c8a485",
+      "#946c50",
+      "#ac9675",
+      "#9c867c"
+    ]
   },
   {
     "title": "AJKT-01",
@@ -9723,7 +10297,14 @@
       }
     ],
     "quantity": 196,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#43221a",
+      "#c8a485",
+      "#946c50",
+      "#ac9675",
+      "#9c867c"
+    ]
   },
   {
     "title": "AJBK-10",
@@ -9835,7 +10416,14 @@
       }
     ],
     "quantity": 6,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#4e1213",
+      "#9c7f73",
+      "#bc7774",
+      "#97212a",
+      "#a86c74"
+    ]
   },
   {
     "title": "AJBK-10",
@@ -9947,7 +10535,14 @@
       }
     ],
     "quantity": 6,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#4e1213",
+      "#9c7f73",
+      "#bc7774",
+      "#97212a",
+      "#a86c74"
+    ]
   },
   {
     "title": "AJBK-09",
@@ -10054,7 +10649,14 @@
       }
     ],
     "quantity": 18,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#b18167",
+      "#111122",
+      "#633f39",
+      "#818489",
+      "#7d8078"
+    ]
   },
   {
     "title": "AJBK-09",
@@ -10161,7 +10763,14 @@
       }
     ],
     "quantity": 18,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#b18167",
+      "#111122",
+      "#633f39",
+      "#818489",
+      "#7d8078"
+    ]
   },
   {
     "title": "AJAB-24",
@@ -10274,7 +10883,14 @@
       }
     ],
     "quantity": 679,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#ad9d9a",
+      "#7b252d",
+      "#ab7237",
+      "#ede9e9",
+      "#5c5454"
+    ]
   },
   {
     "title": "AJAB-24",
@@ -10387,7 +11003,14 @@
       }
     ],
     "quantity": 679,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#ad9d9a",
+      "#7b252d",
+      "#ab7237",
+      "#ede9e9",
+      "#5c5454"
+    ]
   },
   {
     "title": "AJAB-22",
@@ -10501,7 +11124,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#6a4d40",
+      "#cc9552",
+      "#a3ae97",
+      "#1a0c0f",
+      "#ac8c8c"
+    ]
   },
   {
     "title": "AJAB-22",
@@ -10637,7 +11267,14 @@
       }
     ],
     "quantity": 0,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#6a4d40",
+      "#cc9552",
+      "#a3ae97",
+      "#1a0c0f",
+      "#ac8c8c"
+    ]
   },
   {
     "title": "AJAB-18",
@@ -10773,7 +11410,14 @@
       }
     ],
     "quantity": 268,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#84474a",
+      "#20181e",
+      "#d8b6b2",
+      "#e45e59",
+      "#cb9c9c"
+    ]
   },
   {
     "title": "AJAB-18",
@@ -10887,7 +11531,14 @@
       }
     ],
     "quantity": 268,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#84474a",
+      "#20181e",
+      "#d8b6b2",
+      "#e45e59",
+      "#cb9c9c"
+    ]
   },
   {
     "title": "AJAB-16",
@@ -11011,7 +11662,14 @@
       }
     ],
     "quantity": 479,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#b69053",
+      "#2f291c",
+      "#6b181c",
+      "#655834",
+      "#edd6be"
+    ]
   },
   {
     "title": "AJAB-16",
@@ -11124,7 +11782,14 @@
       }
     ],
     "quantity": 479,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#b69053",
+      "#2f291c",
+      "#6b181c",
+      "#655834",
+      "#edd6be"
+    ]
   },
   {
     "title": "AJAB-11",
@@ -11229,7 +11894,14 @@
       }
     ],
     "quantity": 863,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#76303b",
+      "#cfc5d3",
+      "#946a5d",
+      "#a3767e",
+      "#8c6e76"
+    ]
   },
   {
     "title": "AJAB-11",
@@ -11356,7 +12028,14 @@
       }
     ],
     "quantity": 863,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#76303b",
+      "#cfc5d3",
+      "#946a5d",
+      "#a3767e",
+      "#8c6e76"
+    ]
   },
   {
     "title": "AJAB-08",
@@ -11469,7 +12148,14 @@
       }
     ],
     "quantity": 1012,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#8e5f55",
+      "#351b1e",
+      "#d2bcae",
+      "#d39253",
+      "#ba9ca5"
+    ]
   },
   {
     "title": "AJAB-08",
@@ -11582,7 +12268,14 @@
       }
     ],
     "quantity": 1012,
-    "stitched": true
+    "stitched": true,
+    "colors": [
+      "#8e5f55",
+      "#351b1e",
+      "#d2bcae",
+      "#d39253",
+      "#ba9ca5"
+    ]
   },
   {
     "title": "AJAB-05",
@@ -11695,6 +12388,13 @@
       }
     ],
     "quantity": 0,
-    "stitched": false
+    "stitched": false,
+    "colors": [
+      "#bfadab",
+      "#3e1e2a",
+      "#742933",
+      "#715f5e",
+      "#855d3e"
+    ]
   }
 ]

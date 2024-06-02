@@ -1,5 +1,6 @@
 const fs = require("fs/promises");
 const puppeteer = require("puppeteer");
+const getColors = require("get-image-colors");
 const links = require("./links");
 
 const URL = `https://asimjofa.com/collections/unstitched`;
@@ -21,6 +22,9 @@ async function run() {
   for (let link of links) {
     console.log(`Extracting article from ${link}`);
     const article = await extractArticle(page, link);
+    const colors = await getColors(article.images[0]);
+    const hexcodes = colors.map((color) => color.hex());
+    console.log(hexcodes);
     articles.push(article);
     console.log(`So far extracted ${articles.length} articles`);
   }
